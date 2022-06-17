@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/cardview_light_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Registration form"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="40dp"
+
+        />
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Venkatesh"
+        android:layout_marginBottom="-60dp"
+        android:width="250dp"
+        android:height="60dp"
+        android:background="@drawable/edit_text_background1"
+
+        android:hint="Employee name"
+        android:inputType="text"
+        android:minWidth="200dp"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="btech"
+        android:layout_marginBottom="-60dp"
+        android:width="250dp"
+        android:height="60dp"
+        android:background="@drawable/edit_text_background1"
+
+        android:hint="Email"
+        android:inputType="text"
+        android:minWidth="200dp"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/design"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="100000"
+
+        android:layout_marginTop="80dp"
+        android:width="250dp"
+        android:height="60dp"
+        android:background="@drawable/edit_text_background1"
+
+        android:hint="Designation"
+        android:inputType="text"
+        android:minWidth="200dp"
+        android:padding="20dp" />
+
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="5"
+        android:width="250dp"
+        android:height="40dp"
+        android:background="@drawable/edit_text_background1"
+
+        android:hint="Date of join"
+        android:inputType="text"
+        android:minWidth="200dp"
+        android:padding="20dp" />
+
+
+    <EditText
+        android:id="@+id/branch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:width="250dp"
+        android:height="40dp"
+        android:background="@drawable/edit_text_background1"
+        android:text="CSE"
+        android:hint="Branch"
+        android:inputType="text"
+        android:minWidth="200dp"
+        android:padding="20dp" />
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:background="@color/cardview_dark_background"
+        android:gravity="center"
+        android:minWidth="200dp"
+        android:text="Register" />
+
+
+</LinearLayout>

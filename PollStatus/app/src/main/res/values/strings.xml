@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PollStatus</string>
+    <string name="which_programming_language_is_your_favorite">Which programming language is your favorite</string>
+    <string name="java">Java</string>
+
+    <string name="c">C</string>
+
+    <string name="python">Python</string>
+
+</resources>
